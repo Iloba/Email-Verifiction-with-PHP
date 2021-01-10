@@ -1,0 +1,66 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	background-color: 	#ececec;
+	margin: 0;
+	padding: 0;
+}
+*{
+	 padding: 0px;
+ 	 margin: 0;
+	 box-sizing: border-box; 
+  list-style: none;
+}
+header{
+	padding: 60px;
+}
+h1{
+	color: green;
+}
+#form-section{
+	padding: 50px;
+	background-color: #fff;
+	border: 1px solid green;
+	-webkit-box-shadow: 2px 9px 29px -1px rgba(138,242,195,1);
+-moz-box-shadow: 2px 9px 29px -1px rgba(138,242,195,1);
+box-shadow: 2px 9px 29px -1px rgba(138,242,195,1);
+}
+label{
+	font-size: 17px;
+	color: green;
+	font-weight: bold;
+	font-family: calibri light;
+
+}
+input[placeholder]{
+	font-family: calibri light;
+}
+h2, h3, h1{
+	color: green;
+	font-family: calibri light;
+	text-transform: capitalize;
+}
+.head{
+	text-transform: capitalize;
+}
+a{
+	color: green;
+	outline: none;
+	font-size: 13px;
+}
+a:hover{
+	outline: none;
+	text-decoration: none;
+	color: darkgreen;
+}
+#Admin{
+	background-color: #fff;
+}
+.form-control:focus{
+	box-shadow: none;
+	border-color: green;
+}
+.text{
+	font-size: 12px;
+}
